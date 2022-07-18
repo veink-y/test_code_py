@@ -1,5 +1,9 @@
 # Databricks notebook source
 
+# MAGIC %run test_run
+
+# COMMAND ----------
+
 print("hello world")
 
 # COMMAND ----------
