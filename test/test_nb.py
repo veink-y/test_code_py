@@ -12,6 +12,14 @@ print("hello world command 2")
 
 # COMMAND ----------
 
+!ls -l
+
+# COMMAND ----------
+
+!pwd
+
+# COMMAND ----------
+
 import json
 with open("test_json.json","r") as f:
     test_json = json.loads(f.read())
