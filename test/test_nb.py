@@ -10,7 +10,7 @@ print("hello world command 2")
 
 import json
 with open("test_json.json","r") as f:
-    test_json = json.loads(f.reads())
+    test_json = json.loads(f.read())
     print(test_json)
 
 # COMMAND ----------
