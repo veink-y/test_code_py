@@ -9,7 +9,7 @@ print("hello world command 2")
 # COMMAND ----------
 
 import json
-with open("test_json.json") as f:
+with open("test_json.json","r") as f:
     test_json = json.loads(f.reads())
     print(test_json)
 
